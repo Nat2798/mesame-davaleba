@@ -1,0 +1,131 @@
+@font-face {
+    font-family: FiraGO;
+    src: url(../fonts/FiraGO-Regular.woff);
+  }
+
+body{
+    background: #FDFDFD;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 100vh;
+}
+.card {
+    width: 718px;
+
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    border-radius: 10px;
+
+    padding: 40px 51px 63px 51px;
+    
+}
+
+h1{
+    font-family: FiraGO ;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+
+    color: #000000;
+
+    margin-top: 0;
+    margin-bottom: 26px;
+
+}
+
+.input_item label{
+    display: block;
+    font-family: FiraGO;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+
+    margin-bottom: 5px;
+
+}
+
+.input_item input{
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+
+    width: calc(100% - 36px);
+    height: 12px;
+
+    padding: 18px 18px 18px 18px;
+}
+
+.mb18 {
+    margin-bottom: 18px;
+}
+
+.mb13 {
+    margin-bottom: 13px;
+}
+
+.object{
+    margin-bottom: 28px;
+}
+.lost_password {
+    font-family: FiraGO;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #0653AD;
+
+    margin-bottom: 28px;
+
+}
+
+.card_footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer span {
+    font-family: FiraGO;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #000000;
+}
+
+.footer a {
+    font-family: FiraGO;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #0653AD;
+}
+
+.btn {
+    background: #FFDD04;
+    border-radius: 10px;
+    border: 1px solid #FFDD04;
+
+    width: 205px;
+    height: 47px;
+
+    font-family: FiraGO;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+
+}
